@@ -73,8 +73,8 @@ class TractionSystem:
         ax.set_ylabel("traction_effort",fontsize = 14)
         ax.tick_params(axis='both',labelsize=14)
 
-        plt.show()
-        #plt.savefig('V-F-curver.png',bbox_inches='tight')
+        #plt.show()
+        plt.savefig('V-F-curver.png',bbox_inches='tight')
             
 
 myloco = TractionSystem(0,100,1000)
